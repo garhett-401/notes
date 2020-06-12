@@ -8,13 +8,17 @@ minimist.mockImplementation(() => {
   }
 });
 
+
 const Input = require('../lib/input')
+
 
 
 
 describe('Test Test Test', () => {
   it('should be true!', () => {
+
     let options = new Input();
     expect(options.payload).toBe("Hi");
+
   })
 })

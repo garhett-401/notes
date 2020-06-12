@@ -1,4 +1,6 @@
+
 # LAB - Class -03
+
 
 ## Project: Node Ecosystem
 
@@ -15,6 +17,8 @@
 
 #### How to initialize/run your application (where applicable)
 
+
 - `node index.js -a <your message here> `
+
 
 
