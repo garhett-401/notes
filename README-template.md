@@ -1,4 +1,6 @@
-# LAB - Class 401-d36
+
+# LAB - Class -03
+
 
 ## Project: Node Ecosystem
 
@@ -15,7 +17,8 @@
 
 #### How to initialize/run your application (where applicable)
 
-- `node index.js -a <your message here>`
+
+- `node index.js -a <your message here> `
 
 
 
