@@ -9,7 +9,12 @@ minimist.mockImplementation(() => {
 });
 
 
-const Input = require('../lib/input')
+function removeKey()  {
+  const Input = require('../lib/input.js')
+  delete Input.args;
+
+  return new Input();
+}
 
 
 
@@ -17,8 +22,8 @@ const Input = require('../lib/input')
 describe('Test Test Test', () => {
   it('should be true!', () => {
 
-    let options = new Input();
-    expect(options.payload).toBe("Hi");
+    let options = removeKey();
+    expect(options.validate()).toBe(true);
 
   })
 })
